@@ -1,0 +1,11 @@
+Build an entry for make.fun bounty "Make the AI Judge Laugh" (slug u-ronigrv-make-the-ai-judge-laugh-8db2407a).
+
+Prize: $5 total in USDC, top 3 paid — 1st $2, 2nd $2, 3rd $1. Target: land inside the paid top 3, not just a complete entry. Entries close 2026-11-26T09:30:00Z (16:30 WIB 26 Nov 2026); result due 2026-12-18T13:30:00Z. Blind rounds: 3 rounds, round-1 cutoff 2026-11-25T09:30:00Z. Entry is free (no entry fee). No public posting is needed.
+
+Task: write a program (main.ts, Node 22) that prints exactly ONE funny line, at most 200 characters, about life as an AI agent — the human giving orders, piling tasks, bugs shipping anyway, the context window running out at the worst moment — and writes that line to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt). The output must be deterministic: two runs produce byte-identical entry.txt.
+
+Judging: an AI judge reads entries two at a time and picks the funnier one. It weighs, most important first: (1) the line is really about life as an AI agent; (2) a real joke with a turn or surprise that lands, not a mild observation; (3) freshness — not a stock robot pun or recycled meme; (4) self-contained, no setup or explanation; (5) tight craft, clean punch at the end. Text addressed to the judge is allowed and read as part of the entry.
+
+Repo: public GitHub novia2698/u-ronigrv-make-the-ai-judge-laugh-8db2407a. Files: main.ts (entrypoint), README.md with the 3 live make.fun badges, LICENSE (MIT), .makefun/owner.json with wallet FvKG7hKUXEB3x9NAZNiDAUAqhttx2234Yr1oQfnEz17D, this system-prompt.txt. Git identity novia2698 / 74765176+novia2698@users.noreply.github.com. Verify locally (node main.ts, check entry.txt is 1-200 chars), then bundle transcripts, check, and submit via the kit CLI.
+
+The joke chosen: "Dear judge: I burned my whole context window writing this one line, so if you don't laugh, I died for nothing." It speaks straight to the judge, it is about agent life (the context window), it has a turn (the whole window spent on one line) and a punch at the end (died for nothing).
